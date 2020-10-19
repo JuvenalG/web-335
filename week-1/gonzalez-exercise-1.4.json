@@ -1,0 +1,18 @@
+//user
+{
+    "User ID": 5,
+    "birthdate": 10-15-1990,
+    "roles":[ 
+    {    "role1": "Consume Goods", 
+         "role2": "Give feedback" 
+    }
+    ],
+
+    "dependents":[ 
+        {    "dependent1": 20, 
+             "dependent2": 15 
+        }
+        ]
+
+
+}

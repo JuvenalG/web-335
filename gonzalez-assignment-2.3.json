@@ -1,0 +1,34 @@
+# class object
+{
+    "_id": 5,
+    "name": "Math",
+    "enroll":[ 
+        {    "_id": 20, 
+             "grade": "B"
+        }
+        {    "_id": 15, 
+            "grade": "C" 
+        }
+        ],
+}
+# student object
+{
+    "_id": 7,
+    "first_name": "Harold",
+    "last_name": "Renofosk",
+    "mi":  "J",
+    "enroll":[ 
+        {    "_id": 19, 
+             "grade": "B" 
+        }
+        {    "_id": 12, 
+            "grade": "A" 
+        }
+        {    "_id": 11, 
+            "grade": "B" 
+        }
+        {    "_id": 15, 
+            "grade": "C" 
+        }
+        ],
+}

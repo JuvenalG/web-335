@@ -1,0 +1,43 @@
+//Customer
+{
+    "_id": 21,
+    "first_name": "Bob",
+    "last_name": "Lezowski",
+    "date_of_birth": 07-15-1995,
+    "user_name": "Bob071995",
+    "invoice":[ 
+        {    "_id": 200, 
+             "date_created": 05-15-2019,
+             "date_shipped": 05-17-2019,
+             "subtotal": 500,
+             "tax": 22,
+             "total": 522,
+             "line item":[ 
+                {    "_id": 70, 
+                     "name": "bearing",
+                     "price": 250,
+                     "quantity": 2
+                }
+                ]
+        }
+        {    "_id": 150, 
+            "date_created": 04-07-2019,
+            "date_shipped": 04-10-2019,
+            "subtotal": 200,
+            "tax": 15,
+            "total": 215,
+            "line item":[ 
+                {    "_id": 50, 
+                     "name": "window",
+                     "price": 150,
+                     "quantity": 1
+                }
+                {    "_id": 51, 
+                    "name": "window tint",
+                    "price": 50,
+                    "quantity": 1
+                }
+                ]
+       }
+        ],    
+}

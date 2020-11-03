@@ -1,0 +1,53 @@
+{
+    "user_id": "100",
+    "firstName": "Bob",
+    "lastName": "Lezowsky",
+    "linkUserRole": [
+       {
+         "id_": "50",
+         "role": [
+             {
+                 "title": "public",
+                 "linkRolePermission": [
+                     {
+                         "_id": "13",
+                        "Effect": "Allow",
+                        "Action": "iam:CreateServiceLinkedRole",
+                        "Resource": "arn:aws:iam::*:role/aws-service-role/*"
+                     },
+                     {
+                        "_id": "22",
+                        "Effect": "Allow",
+                        "Action": "iam:UpdateRoleDescription",
+                        "Resource": "arn:aws:iam::*:role/aws-service-role/*"
+                     }
+                  ],
+                  "permission": "read"
+             }         
+         ]
+       },
+       {
+        "id_": "56",
+        "role": [
+            {
+                "title": "admin",
+                "linkRolePermission": [
+                    {
+                        "_id": "13",
+                       "Effect": "Allow",
+                       "Action": "iam:CreateServiceLinkedRole",
+                       "Resource": "arn:aws:iam::*:role/aws-service-role/*"
+                    },
+                    {
+                       "_id": "8",
+                       "Effect": "Allow",
+                       "Action": "iam:UpdateRoleDescription",
+                       "Resource": "arn:aws:iam::*:role/aws-service-role/*"
+                    }
+                ],
+                "permission": "read:write"
+            }                    
+        ]
+      }
+    ]   
+}

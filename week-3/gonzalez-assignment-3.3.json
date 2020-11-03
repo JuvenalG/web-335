@@ -1,0 +1,39 @@
+{
+  "name": "Addison-Wesley",
+  "code": "1051609",
+  "address": "10 W Elm st, Stockton, CA, 95203",
+  "book": [
+      {
+        "isbn": "0321826620",
+        "name": "noSQL Distilled",
+        "price": "40.49",
+        "author": [
+            {
+                "first_name": "Martin",
+                "last_name": "Fowler",
+                "phone": "2098443291",
+                "email": "mFowler@Addison-Wesley.com"
+            },
+            {
+                "first_name": "Pramod",
+                "last_name": "Sadalage",
+                "phone": "2098443567",
+                "email": "pSadalager@Addison-Wesley.com"
+            }
+        ]
+      },
+      {
+        "isbn": "978-0142419229",
+        "name": "The Mirror of Fate: Book 4",
+        "price": "8.49",
+        "author": [
+            {
+                "first_name": "T.A",
+                "last_name": "Barron",
+                "phone": "9514716594",
+                "email": "tBarron@Addison-Wesley.com"
+            }
+        ]
+    }
+  ]
+}
